@@ -8,6 +8,7 @@ https://github.com/xcshang/feHelper
 ## 主要特点
 
 适用场景广泛  
+独创源码智能合并
 查找资源快捷  
 资源使用智能  
 资源粒度细，灵活度高  
