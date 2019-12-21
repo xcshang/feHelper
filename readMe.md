@@ -1,8 +1,8 @@
-# 欢迎使用 FEHelper 前端开发助手
+# 欢迎使用 FEBuildBlocks 前端代码积木
 
 https://github.com/xcshang/feHelper
 
- FEHelper 前端开发助手是致力于解决前端开发能效的一套应用系统。集资源管理、使用于一体，具有适用性广泛，无依赖，使用便捷等特点。
+ FEBuildBlocks 前端代码积木是致力于解决前端开发能效的一套应用系统。集资源管理、使用于一体，具有适用性广泛，无依赖，使用便捷等特点。
 
 
 ## 主要特点
@@ -32,7 +32,7 @@ https://github.com/xcshang/feHelper
 资源查找、下载|本地查找和下载，速度快
 资源间依赖|自动下载依赖
 
-## FEHelper APP使用方法
+## FEBuildBlocks APP使用方法
 
 #### 一、应用下载
 ```javascript
@@ -65,7 +65,7 @@ alias: {
 '@feHelper': resolve('./src/feHelper'), //@feHelper为固定别名，不能改成其他的
 }
 ```
-4.2.3、回到feHelper APP，项目管理》新增项目》项目类型选择old,填写项目名称和已有项目的地址及feHelper目录地址》确定  
+4.2.3、回到FEBuildBlocks APP，项目管理》新增项目》项目类型选择old,填写项目名称和已有项目的地址及feHelper目录地址》确定  
 
 #### 五、资源关联  
 项目管理》仓库地址中填入本地资源仓库地址》设置  
@@ -75,7 +75,7 @@ alias: {
 3、右侧选择需要的资源  
 4、中间点击确认进行代码插入  
 
-## FEHelper 资源开发
+## FEBuildBlocks 资源开发
 可参考 https://github.com/xcshang/fe-helper-store 已有资源
 
 #### 一、资源命名  
@@ -89,7 +89,7 @@ info文件夹 （必需）
 
 1、index.vue   
 此文件为资源的入口文件，文件名必须为index.vue  
-此文件对feHelper其他资源的引用,引用路径为@feHelper+feHelper资源英文名+依赖文件  
+此文件对FEBuildBlocks其他资源的引用,引用路径为@feHelper+feHelper资源英文名+依赖文件  
 样式建议用import方式引入，不要写在<style></style>中  
 
 2、info文件夹  
@@ -107,4 +107,4 @@ info.json
 view.png 资源预览图片    
 readMe.md 资源使用文档
 
-## 马上开始您的FEHelper之旅吧！
+## 马上开始您的FEBuildBlocks之旅吧！
