@@ -57,9 +57,9 @@ npm run start
 
 4.1、使用APP一建搭建新项目  
 项目管理》新增项目》填写项目名称和项目要放置的地址》确定  
- 4.2、已有项目  
--4.2.1、已有项目内新建空目录feHelper（位置不限）  
--4.2.2、已有项目webpack配置增加 @feHelper 别名配置到alias，指向新建目录feHelper，如：
+4.2、已有项目  
+4.2.1、已有项目内新建空目录feHelper（位置不限）  
+4.2.2、已有项目webpack配置增加 @feHelper 别名配置到alias，指向新建目录feHelper，如：
 ```javascript
 alias: {
 '@feHelper': resolve('./src/feHelper'), //@feHelper为固定别名，不能改成其他的
@@ -67,13 +67,13 @@ alias: {
 ```
 4.2.3、回到feHelper APP，项目管理》新增项目》项目类型选择old,填写项目名称和已有项目的地址及feHelper目录地址》确定  
 
- 六、资源关联  
+####五、资源关联  
 项目管理》仓库地址中填入本地资源仓库地址》设置  
- 五、项目开发  
--1、进入项目开发  
--2、左侧选择要开发的项目和具体要开发的文件  
--3、右侧选择需要的资源  
--4、中间点击确认进行代码插入  
+####六、项目开发  
+1、进入项目开发  
+2、左侧选择要开发的项目和具体要开发的文件  
+3、右侧选择需要的资源  
+4、中间点击确认进行代码插入  
 
 ## FEHelper 资源开发
 可参考 https://github.com/xcshang/fe-helper-store 已有资源
@@ -82,15 +82,15 @@ alias: {
 所有资源以英文名为文件夹，放置在仓库的根目录下  
 
 二、资源文件结构  
--一个资源需要包含以下内容（以下以vue项目为例）  
--index.vue （必需）  
--info文件夹 （必需）  
--其他依赖文件 （非必需）  
+一个资源需要包含以下内容（以下以vue项目为例）  
+index.vue （必需）  
+info文件夹 （必需）  
+其他依赖文件 （非必需）  
 
 1、index.vue   
--此文件为资源的入口文件，文件名必须为index.vue  
--此文件对feHelper其他资源的引用,引用路径为@feHelper+feHelper资源英文名+依赖文件  
--样式建议用import方式引入，不要写在<style></style>中  
+此文件为资源的入口文件，文件名必须为index.vue  
+此文件对feHelper其他资源的引用,引用路径为@feHelper+feHelper资源英文名+依赖文件  
+样式建议用import方式引入，不要写在<style></style>中  
 
 2、info文件夹  
 info文件夹包括以下三个文件：
