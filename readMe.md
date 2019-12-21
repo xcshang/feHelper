@@ -10,7 +10,6 @@ https://github.com/xcshang/feHelper
 适用场景广泛  
 源码智能合并  
 查找资源快捷  
-资源使用智能  
 资源粒度细，灵活度高  
 资源开发、维护简单
 
