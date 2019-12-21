@@ -1,0 +1,26 @@
+//iview css
+.ivu-layout-content {
+    padding: 24px;
+    min-height: 280px;
+    background: #fff;
+}
+
+.ivu-spin-fullscreen {
+    background: transparent
+}
+
+.ivu-btn,
+.ivu-modal-content,
+.ivu-select-selection,
+.ivu-input,
+.ivu-select-dropdown {
+    border-radius: 0;
+}
+
+.ivu-page-item,
+.ivu-page-item-jump-next,
+.ivu-page-item-jump-prev,
+.ivu-page-next,
+.ivu-page-prev {
+    border-radius: 0;
+}

@@ -1,0 +1,17 @@
+
+# logs
+*.log
+.idea
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+
+# dependencies
+/node_modules
+/webSource/node_modules
+
+# cache files
+.DS_Store
+.npm
+
+

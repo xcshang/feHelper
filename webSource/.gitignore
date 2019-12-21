@@ -1,0 +1,18 @@
+# logs
+*.log
+.idea
+npm-debug.log*
+yarn-error.log*
+
+# dependencies
+/node_modules
+
+# cache files
+.DS_Store
+.npm
+
+# localDevConfig
+.localDevConfig.js
+
+
+

@@ -1,0 +1,20 @@
+{
+    "presets": [
+        [
+            "@babel/env",
+            {
+              useBuiltIns: "usage"
+            }
+        ],
+        ['@vue/app', {
+            polyfills: [
+              'es6.array.iterator',
+              'es6.promise'
+            ]
+        }]
+    ],
+    "plugins": [
+        "@babel/plugin-syntax-dynamic-import",
+        "@babel/plugin-transform-runtime"
+    ]
+}
