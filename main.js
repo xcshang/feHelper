@@ -7,6 +7,8 @@ const dynamic = require('./lib/dynamic/dynamic')
 const util = require('./lib/util')
 app.use(express.static('web'));
 const fs = require('fs')
+const {exec} = require("child_process");
+
 
 // create application/json parser
 var jsonParser = bodyParser.json()
@@ -150,5 +152,6 @@ app.post('/api/dynamic', jsonParser, function(req, res) {
 });
 
 app.listen(3000, function() {
+    exec(`open http://localhost:3000`);
     console.log('Example app listening on port 3000!');
 });

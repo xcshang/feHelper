@@ -36,7 +36,7 @@ https://github.com/xcshang/feHelper
 
 #### 一、应用下载
 ```javascript
-npm install fehelper
+git clone git@github.com:xcshang/feHelper.git
 ```
 
 #### 二、依赖安装
@@ -47,15 +47,19 @@ npm install
 
 #### 三、APP启动
 ```javascript
+npm run app
+```
+启动带预览功能APP（要安装预览功能依赖）
+```javascript
 npm run start
 ```
 #### 四、项目创建
 
-##### 4.1、使用APP一建搭建新项目
+4.1、使用APP一建搭建新项目
 项目管理》新增项目》填写项目名称和项目要放置的地址》确定
-##### 4.2、已有项目
-4.2.1、已有项目内新建空目录feHelper（位置不限）
-4.2.2、已有项目webpack配置增加 @feHelper 别名配置到alias，指向新建目录feHelper，如：
+ 4.2、已有项目
+-4.2.1、已有项目内新建空目录feHelper（位置不限）
+-4.2.2、已有项目webpack配置增加 @feHelper 别名配置到alias，指向新建目录feHelper，如：
 ```javascript
 alias: {
 '@feHelper': resolve('./src/feHelper'), //@feHelper为固定别名，不能改成其他的
@@ -63,11 +67,13 @@ alias: {
 ```
 4.2.3、回到feHelper APP，项目管理》新增项目》项目类型选择old,填写项目名称和已有项目的地址及feHelper目录地址》确定
 
+#### 六、资源关联
+项目管理》仓库地址中填入本地资源仓库地址》设置
 #### 五、项目开发
-1、进入项目开发
-2、左侧选择要开发的项目和具体要开发的文件
-3、右侧选择需要的资源
-4、中间点击确认进行代码插入
+-1、进入项目开发
+-2、左侧选择要开发的项目和具体要开发的文件
+-3、右侧选择需要的资源
+-4、中间点击确认进行代码插入
 
 ## FEHelper 资源开发
 可参考 https://github.com/xcshang/fe-helper-store 已有资源
