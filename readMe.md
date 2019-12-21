@@ -78,10 +78,10 @@ alias: {
 ## FEHelper 资源开发
 可参考 https://github.com/xcshang/fe-helper-store 已有资源
 
-一、资源命名  
+#### 一、资源命名  
 所有资源以英文名为文件夹，放置在仓库的根目录下  
 
-二、资源文件结构  
+#### 二、资源文件结构  
 一个资源需要包含以下内容（以下以vue项目为例）  
 index.vue （必需）  
 info文件夹 （必需）  
