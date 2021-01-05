@@ -12,7 +12,7 @@
     "dependencies": {
         "@babel/polyfill": "^7.4.4",
         "@vue/babel-preset-app": "^3.8.0",
-        "axios": "^0.18.0",
+        "axios": "^0.21.1",
         "file-loader": "^4.2.0",
         "iview": "^3.5.1",
         "view-design": "^4.0.2",
